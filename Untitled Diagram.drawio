@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T03:16:02.250Z" agent="5.0 (Windows)" etag="o4EwV_8dzB4t8Kg3y9QE" version="16.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-03T03:27:42.959Z" agent="5.0 (Windows)" etag="mKuAXa-97drY8Si_jk5d" version="16.5.6" type="github" pages="3">
   <diagram id="mhKJ061dYRA6jdMPK2rN" name="Page-1">
     <mxGraphModel dx="782" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -170,13 +170,13 @@
         <mxCell id="4KEZcvEA3BJrG6CXWuTU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="k55hGcxo-HFtvceZWBYU-1" source="4KEZcvEA3BJrG6CXWuTU-1" target="4KEZcvEA3BJrG6CXWuTU-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="340" y="240" />
-              <mxPoint x="340" y="165" />
+              <mxPoint x="310" y="240" />
+              <mxPoint x="310" y="165" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4KEZcvEA3BJrG6CXWuTU-1" value="训练集" style="whiteSpace=wrap;html=1;fontSize=19;rounded=0;sketch=0;" vertex="1" parent="k55hGcxo-HFtvceZWBYU-1">
-          <mxGeometry x="190" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="210" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4KEZcvEA3BJrG6CXWuTU-3" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="k55hGcxo-HFtvceZWBYU-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -197,34 +197,35 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4KEZcvEA3BJrG6CXWuTU-4" value="测试集" style="whiteSpace=wrap;html=1;fontSize=19;rounded=0;sketch=0;" vertex="1" parent="k55hGcxo-HFtvceZWBYU-1">
-          <mxGeometry x="190" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="320" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4KEZcvEA3BJrG6CXWuTU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="k55hGcxo-HFtvceZWBYU-1" source="4KEZcvEA3BJrG6CXWuTU-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4KEZcvEA3BJrG6CXWuTU-5" value="线性回归预测" style="whiteSpace=wrap;html=1;fontSize=19;rounded=0;sketch=0;" vertex="1" parent="k55hGcxo-HFtvceZWBYU-1">
-          <mxGeometry x="380" y="140" width="120" height="50" as="geometry" />
+        <mxCell id="4KEZcvEA3BJrG6CXWuTU-5" value="&lt;div&gt;线性回归预测&lt;/div&gt;&lt;div&gt;(LR)&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=19;rounded=0;sketch=0;" vertex="1" parent="k55hGcxo-HFtvceZWBYU-1">
+          <mxGeometry x="340" y="140" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4KEZcvEA3BJrG6CXWuTU-8" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;" edge="1" parent="k55hGcxo-HFtvceZWBYU-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="240" as="sourcePoint" />
+            <mxPoint x="310" y="240" as="sourcePoint" />
             <mxPoint x="380" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4KEZcvEA3BJrG6CXWuTU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="k55hGcxo-HFtvceZWBYU-1" source="4KEZcvEA3BJrG6CXWuTU-9" target="4KEZcvEA3BJrG6CXWuTU-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4KEZcvEA3BJrG6CXWuTU-9" value="决策树" style="whiteSpace=wrap;html=1;fontSize=19;rounded=0;sketch=0;" vertex="1" parent="k55hGcxo-HFtvceZWBYU-1">
-          <mxGeometry x="380" y="215" width="120" height="45" as="geometry" />
+        <mxCell id="4KEZcvEA3BJrG6CXWuTU-9" value="&lt;div&gt;决策树&lt;/div&gt;&lt;div&gt;（DT）&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=19;rounded=0;sketch=0;" vertex="1" parent="k55hGcxo-HFtvceZWBYU-1">
+          <mxGeometry x="340" y="215" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="4KEZcvEA3BJrG6CXWuTU-10" value="" style="endArrow=classic;html=1;rounded=0;sketch=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="k55hGcxo-HFtvceZWBYU-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="237.5" as="sourcePoint" />
+            <mxPoint x="310" y="237" as="sourcePoint" />
             <mxPoint x="380" y="300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="340" y="300" />
+              <mxPoint x="310" y="237" />
+              <mxPoint x="310" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -233,8 +234,8 @@
             <mxPoint x="520" y="238" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4KEZcvEA3BJrG6CXWuTU-11" value="线性回归预测" style="whiteSpace=wrap;html=1;fontSize=19;rounded=0;sketch=0;" vertex="1" parent="k55hGcxo-HFtvceZWBYU-1">
-          <mxGeometry x="380" y="277.5" width="120" height="50" as="geometry" />
+        <mxCell id="4KEZcvEA3BJrG6CXWuTU-11" value="梯度提升决策树（GDBT）" style="whiteSpace=wrap;html=1;fontSize=19;rounded=0;sketch=0;" vertex="1" parent="k55hGcxo-HFtvceZWBYU-1">
+          <mxGeometry x="340" y="277.5" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4KEZcvEA3BJrG6CXWuTU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="k55hGcxo-HFtvceZWBYU-1" source="4KEZcvEA3BJrG6CXWuTU-13" target="4KEZcvEA3BJrG6CXWuTU-18">
           <mxGeometry relative="1" as="geometry" />
@@ -253,9 +254,17 @@
         <mxCell id="4KEZcvEA3BJrG6CXWuTU-18" value="参数调整" style="whiteSpace=wrap;html=1;fontSize=19;rounded=0;sketch=0;" vertex="1" parent="k55hGcxo-HFtvceZWBYU-1">
           <mxGeometry x="660" y="207.5" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4KEZcvEA3BJrG6CXWuTU-26" value="结束" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontSize=19;" vertex="1" parent="k55hGcxo-HFtvceZWBYU-1">
+        <mxCell id="4KEZcvEA3BJrG6CXWuTU-26" value="学习曲线对比" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontSize=19;" vertex="1" parent="k55hGcxo-HFtvceZWBYU-1">
           <mxGeometry x="530" y="320" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ypIW8HgUcz_r6X_H_4cy" name="Page-3">
+    <mxGraphModel dx="782" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="8MwhIHG_zXF0kFMnTJ49-0" />
+        <mxCell id="8MwhIHG_zXF0kFMnTJ49-1" parent="8MwhIHG_zXF0kFMnTJ49-0" />
       </root>
     </mxGraphModel>
   </diagram>
